@@ -15,8 +15,8 @@ Next
 The waitress comes over to your table.
 "Hi there," she says. "Are you ready to order?"
 </h2>
-        <button onClick={() => navigate('/retry')}>A: Avocado Toast</button>
-        <button onClick={() => navigate('/question2')}>B: Triple buffalo cheeseburger
+        <button onClick={() => navigate('/question2')}>A: Avocado Toast</button>
+        <button onClick={() => navigate('/question1w')}>B: Triple buffalo cheeseburger
         </button>
       </div>
     );

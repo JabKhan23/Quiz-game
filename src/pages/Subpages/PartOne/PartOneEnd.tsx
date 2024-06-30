@@ -14,7 +14,7 @@ Alice asks: "You seriously brought a fork with you?"
 You hand Alice another metal fork. She finds it a bit funny but genuinely appreciates your
 dedication to the cause.
 "I've got metal straws too. Let me know if you need one," you add.
-Next
+
 More time passes. You are both finished with your meals.
 Alice is in deep thought. "You know, I've been thinking... When it comes to what I want to do in
 life, I only ever considered money."
@@ -23,8 +23,7 @@ She spins the metal fork in her hand, inspecting the tiny scratches it got from 
 right thing to do. It would make me happier."
 You smile.
 "I think so too," you respond. You look at your own fork. "I'm sure you will figure it out!"
-Next
-3.
+
 You look out the window; across the street is one of the biggest hotels in Stockholm. There
 seems to be some sort of event going on.
 "Apparently there's some sort of convention going on there," Alice clarifies. "A massive one;
@@ -40,7 +39,7 @@ man. It makes it look like he is behind prison bars.
 You smile. "I think I've got an idea," you reply to Alice.
 
 </h2>
-        <button onClick={() => navigate('/question2')}>Go to Part 2</button>
+        <button onClick={() => navigate('/question2p2')}>Go to Part 2</button>
        
       </div>
     );

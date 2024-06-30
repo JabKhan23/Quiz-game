@@ -25,7 +25,7 @@ const MainMenu: React.FC = () => {
     setSubmitting(true);
 
     // Custom validation for username and password
-    if (values.username !== 'AlexDinusaur' || values.password !== 'Hello') {
+    if (values.username !== 'AlexDinusaur' || values.password !== 'truthwelltold') {
       setErrors({ username: 'Invalid Username', password: 'Invalid Password' });
     } else {
       navigate('/home');

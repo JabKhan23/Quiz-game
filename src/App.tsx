@@ -17,6 +17,15 @@ import OneT1 from './pages/Subpages/PartOne/OneT1';
 import OneT2 from './pages/Subpages/PartOne/OneT2';
 import OneT3 from './pages/Subpages/PartOne/OneT3';
 import OneT4 from './pages/Subpages/PartOne/OneT4';
+import TwoStart from './pages/Subpages/PartTwo/TwoStart';
+import TwoT1 from './pages/Subpages/PartTwo/TwoT1';
+import TwoQ1 from './pages/Subpages/PartTwo/TwoQ1';
+import TwoQ1W from './pages/Subpages/PartTwo/TwoQ1W';
+import TwoQ2 from './pages/Subpages/PartTwo/TwoQ2';
+import TwoQ2W from './pages/Subpages/PartTwo/TwoQ2W';
+import TwoQ3 from './pages/Subpages/PartTwo/TwoQ3';
+import TwoQ3W from './pages/Subpages/PartTwo/TwoQ3W';
+import TwoT2 from './pages/Subpages/PartTwo/TwoT2';
 
 
 const App: React.FC = () => {
@@ -35,6 +44,15 @@ const App: React.FC = () => {
         <Route path="/pt1t2" element={<OneT2/>} />
         <Route path="/pt1t3" element={<OneT3/>} />
         <Route path="/pt1t4" element={<OneT4/>} />
+        <Route path="/pt2start" element={<TwoStart/>} />
+        <Route path="/pt2t1" element={<TwoT1/>} />
+        <Route path="/pt2q1" element={<TwoQ1/>} />
+        <Route path="/pt2q1w" element={<TwoQ1W/>} />
+        <Route path="/pt2q2" element={<TwoQ2/>} />
+        <Route path="/pt2q2w" element={<TwoQ2W/>} />
+        <Route path="/pt2q3" element={<TwoQ3/>} />
+        <Route path="/pt2q3w" element={<TwoQ3W/>} />
+        <Route path="/pt2t2" element={<TwoT2/>} />
         <Route path="/retry" element={<Retry/>} />
         <Route path="/end" element={<End/>} />
       </Routes>

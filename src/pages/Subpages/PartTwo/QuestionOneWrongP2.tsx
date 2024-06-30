@@ -5,7 +5,12 @@ const QuestionOneWrongP2: React.FC = () => {
 
     return (
       <div>
-        <h1>Part 2: The Symbol</h1>
+           <div className="parthome">
+        <button className="home" onClick={() => navigate('/home')}>Home</button>
+        <h1>Part 2: The Symbol
+        </h1>
+
+        </div>
         <h2>You have always been committed to making environmentally friendly choices to the point where
 you convinced your parents to become vegan... but wow, that burger sounds amazing.
 People have abandoned their convictions for less, you think to yourself. Like for double patty

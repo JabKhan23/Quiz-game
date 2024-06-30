@@ -5,7 +5,12 @@ const PartTwoEnd: React.FC = () => {
 
     return (
       <div>
-        <h1>Part 2: The Symbol</h1>
+           <div className="parthome">
+        <button className="home" onClick={() => navigate('/home')}>Home</button>
+        <h1>Part 2: The Symbol
+        </h1>
+
+        </div>
         <h2>That's right, it was a fork - an unexpected, yet deadly weapon.
 You reach the bottom of your stairs, where your hero costume is displayed behind thick, bulletproof glass. You observe it: a silver armour with three sharp spikes protruding from the helmet.
 The fork: your biggest fear, turned into a symbol of hope. A symbol for rising up and doing

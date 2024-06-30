@@ -3,20 +3,19 @@ import { useNavigate } from 'react-router-dom';
 import * as Yup from 'yup';
 
 interface FormValues {
-  username: string
+ 
   password: string;
 }
 
 const MainMenu: React.FC = () => {
   const navigate = useNavigate();
   const initialValues: FormValues = {
-    username: '',
+    
     password: '',
   };
 
   const validationSchema = Yup.object({
-    username: Yup.string()
-      .required('Username is required'),
+
     password: Yup.string()
       .required('Password is required'),
   });
@@ -25,8 +24,8 @@ const MainMenu: React.FC = () => {
     setSubmitting(true);
 
     // Custom validation for username and password
-    if (values.username !== 'AlexDinusaur' || values.password !== 'truthwelltold') {
-      setErrors({ username: 'Invalid Username', password: 'Invalid Password' });
+    if (values.password !== 'truthwelltold') {
+      setErrors({ password: 'Invalid Password' });
     } else {
       navigate('/home');
       alert('Welcome Alex');
@@ -43,11 +42,7 @@ const MainMenu: React.FC = () => {
     >
       {({ isSubmitting }) => (
         <Form>
-          <div>
-            <label htmlFor="username">Username: </label>
-            <Field type="text" id="username" name="username" />
-            <ErrorMessage name="username" component="div" style={{ color: 'red' }} />
-          </div>
+       <h2>Please enter password to continue</h2>
           <div>
             <label htmlFor="password">Password: </label>
             <Field type="password" id="password" name="password" />

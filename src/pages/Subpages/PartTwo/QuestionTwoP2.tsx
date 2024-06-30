@@ -5,8 +5,12 @@ const QuestionTwoP2: React.FC = () => {
 
     return (
       <div>
+         <div className="parthome">
+        <button className="home" onClick={() => navigate('/home')}>Home</button>
         <h1>Part 2: The Symbol
         </h1>
+
+        </div>
         <h2>"Thank you, Albert."
 You walk back inside your mansion with him.
 You reach a massive bookcase - two meters tall by five meters wide. This is the hidden door to

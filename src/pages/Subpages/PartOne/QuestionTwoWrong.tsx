@@ -5,7 +5,11 @@ const QuestionTwoWrong: React.FC = () => {
 
   return (
     <div>
-      <h1>Part 1: The Inspiration</h1>
+        <div className="parthome">
+        <button className="home" onClick={() => navigate('/home')}>Home</button>
+        <h1>Part 1: The Inspiration</h1>
+
+        </div>
       <h2>You think about it for a second, but... whatever. It's not worth the hassle.
 You use the plastic cutlery.
 Maybe you're not as committed to saving the environment as you thought.

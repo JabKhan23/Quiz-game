@@ -5,7 +5,12 @@ const QuestionTwoWrongP2: React.FC = () => {
 
     return (
       <div>
-        <h1>Part 2: The Symbol</h1>
+         <div className="parthome">
+        <button className="home" onClick={() => navigate('/home')}>Home</button>
+        <h1>Part 2: The Symbol
+        </h1>
+
+        </div>
         <h2>You pull out the book about baking cakes; it's not the correct one, but it just caught your eye. You
 start flicking through it.
 "Wow, this is great stuff," you say to yourself.

@@ -5,8 +5,12 @@ const QuestionThreeP2: React.FC = () => {
 
     return (
       <div>
+    <div className="parthome">
+        <button className="home" onClick={() => navigate('/home')}>Home</button>
         <h1>Part 2: The Symbol
         </h1>
+
+        </div>
         <h2>You pull out the right book and the bookcase splits vertically from the middle, revealing the
 entrance to your secret lair: the silver cave known as the Cutlery Basket.
 As you descend down the silver steps, you remember the fateful night your father died. The face

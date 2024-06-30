@@ -5,7 +5,11 @@ const PartOneEnd: React.FC = () => {
 
     return (
       <div>
+          <div className="parthome">
+        <button className="home" onClick={() => navigate('/home')}>Home</button>
         <h1>Part 1: The Inspiration</h1>
+
+        </div>
         <h2>You put the plastic cutlery aside, then start digging into your bag. You pull out a metal fork.
 Alice asks: "You seriously brought a fork with you?"
 "Of course," you reply. "Didn't you?"

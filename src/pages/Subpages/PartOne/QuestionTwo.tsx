@@ -5,7 +5,11 @@ const QuestionTwo: React.FC = () => {
 
   return (
     <div>
-      <h1>Part 1: The Inspiration</h1>
+       <div className="parthome">
+        <button className="home" onClick={() => navigate('/home')}>Home</button>
+        <h1>Part 1: The Inspiration</h1>
+
+        </div>
       <h2>You ask: "Is the avocado toast vegan? And are the avocados ethically sourced?"
 "Yes and... I think so," replies the waitress.
 "I'll go for that, then. Thanks!"

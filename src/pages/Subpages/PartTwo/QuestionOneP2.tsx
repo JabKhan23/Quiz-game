@@ -5,8 +5,13 @@ const QuestionOneP2: React.FC = () => {
 
     return (
       <div>
+          <div className="parthome">
+        <button className="home" onClick={() => navigate('/home')}>Home</button>
         <h1>Part 2: The Symbol
         </h1>
+
+        </div>
+ 
         <h2>A man behind prison bars, screaming: "I'll get out of here! I'll get out of here and I'll come get
 you!"
 This is the end of a movie playing on the big screen; the credits roll.

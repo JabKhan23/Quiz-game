@@ -5,7 +5,11 @@ const QuestionOne: React.FC = () => {
 
     return (
       <div>
+        <div className="parthome">
+        <button className="home" onClick={() => navigate('/home')}>Home</button>
         <h1>Part 1: The Inspiration</h1>
+
+        </div>
         <h2>The year is 2018. The place is Stockholm.
 You are Greta Thunberg, a fifteen-year-old girl with big aspirations and a desire to save our
 planet.

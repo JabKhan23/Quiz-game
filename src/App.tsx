@@ -7,19 +7,16 @@ import MainMenu from './pages/MainMenu';
 import Home from './pages/Home';
 import Info from './pages/Info';
 import End from './pages/End';
-import QuestionOne from './pages/Subpages/PartOne/QuestionOne';
+import OneQ1 from './pages/Subpages/PartOne/OneQ1';
 import Retry from './pages/Retry';
-import QuestionTwo from './pages/Subpages/PartOne/QuestionTwo';
-import QuestionOneWrong from './pages/Subpages/PartOne/QuestionOneWrong';
-import QuestionTwoWrong from './pages/Subpages/PartOne/QuestionTwoWrong';
-import PartOneEnd from './pages/Subpages/PartOne/PartOneEnd';
-import QuestionOneP2 from './pages/Subpages/PartTwo/QuestionOneP2';
-import QuestionOneWrongP2 from './pages/Subpages/PartTwo/QuestionOneWrongP2';
-import QuestionTwoP2 from './pages/Subpages/PartTwo/QuestionTwoP2';
-import QuestionTwoWrongP2 from './pages/Subpages/PartTwo/QuestionTwoWrongP2';
-import QuestionThreeP2 from './pages/Subpages/PartTwo/QuestionThreeP2';
-import QuestionThreeWrongP2 from './pages/Subpages/PartTwo/QuestionThreeWrongP2';
-import PartTwoEnd from './pages/Subpages/PartTwo/PartTwoEnd';
+import OneQ2 from './pages/Subpages/PartOne/OneQ2';
+import OneQ1W from './pages/Subpages/PartOne/OneQ1W';
+import OneQ2W from './pages/Subpages/PartOne/OneQ2W';
+import OneStart from './pages/Subpages/PartOne/OneStart';
+import OneT1 from './pages/Subpages/PartOne/OneT1';
+import OneT2 from './pages/Subpages/PartOne/OneT2';
+import OneT3 from './pages/Subpages/PartOne/OneT3';
+import OneT4 from './pages/Subpages/PartOne/OneT4';
 
 
 const App: React.FC = () => {
@@ -29,18 +26,15 @@ const App: React.FC = () => {
         <Route path="/" element={<MainMenu />} />
         <Route path="/home" element={<Home/>} />
         <Route path="/info" element={<Info/>} />
-        <Route path="/question1" element={<QuestionOne/>} />
-        <Route path="/question1w" element={<QuestionOneWrong/>} />
-        <Route path="/question2" element={<QuestionTwo/>} />
-        <Route path="/question2w" element={<QuestionTwoWrong/>} />
-        <Route path="/part1end" element={<PartOneEnd/>} />
-        <Route path="/question1p2" element={<QuestionOneP2/>} />
-        <Route path="/question1p2w" element={<QuestionOneWrongP2/>} />
-        <Route path="/question2p2" element={<QuestionTwoP2/>} />
-        <Route path="/question2p2w" element={<QuestionTwoWrongP2/>} />
-        <Route path="/question3p2" element={<QuestionThreeP2/>} />
-        <Route path="/question3p2w" element={<QuestionThreeWrongP2/>} />
-        <Route path="/part2end" element={<PartTwoEnd/>} />
+        <Route path="/pt1start" element={<OneStart/>} />
+        <Route path="/pt1q1" element={<OneQ1/>} />
+        <Route path="/pt1q1w" element={<OneQ1W/>} />
+        <Route path="/pt1q2" element={<OneQ2/>} />
+        <Route path="/pt1q2w" element={<OneQ2W/>} />
+        <Route path="/pt1t1" element={<OneT1/>} />
+        <Route path="/pt1t2" element={<OneT2/>} />
+        <Route path="/pt1t3" element={<OneT3/>} />
+        <Route path="/pt1t4" element={<OneT4/>} />
         <Route path="/retry" element={<Retry/>} />
         <Route path="/end" element={<End/>} />
       </Routes>

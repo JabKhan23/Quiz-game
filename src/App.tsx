@@ -26,6 +26,20 @@ import TwoQ2W from './pages/Subpages/PartTwo/TwoQ2W';
 import TwoQ3 from './pages/Subpages/PartTwo/TwoQ3';
 import TwoQ3W from './pages/Subpages/PartTwo/TwoQ3W';
 import TwoT2 from './pages/Subpages/PartTwo/TwoT2';
+import ThreeStart from './pages/Subpages/PartThree/ThreeStart';
+import ThreeQ1 from './pages/Subpages/PartThree/ThreeQ1';
+import ThreeQ1W from './pages/Subpages/PartThree/ThreeQ1W';
+import ThreeT1 from './pages/Subpages/PartThree/ThreeT1';
+import ThreeQ2 from './pages/Subpages/PartThree/ThreeQ2';
+import ThreeQ2W from './pages/Subpages/PartThree/ThreeQ2W';
+import ThreeT2 from './pages/Subpages/PartThree/ThreeT2';
+import ThreeQ3 from './pages/Subpages/PartThree/ThreeQ3';
+import ThreeQ3W from './pages/Subpages/PartThree/ThreeQ3W';
+import ThreeT3 from './pages/Subpages/PartThree/ThreeT3';
+import ThreeQ4 from './pages/Subpages/PartThree/ThreeQ4';
+import ThreeQ4W from './pages/Subpages/PartThree/ThreeQ4W';
+import ThreeT4 from './pages/Subpages/PartThree/ThreeT4';
+import ThreeT5 from './pages/Subpages/PartThree/ThreeT5';
 
 
 const App: React.FC = () => {
@@ -53,6 +67,21 @@ const App: React.FC = () => {
         <Route path="/pt2q3" element={<TwoQ3/>} />
         <Route path="/pt2q3w" element={<TwoQ3W/>} />
         <Route path="/pt2t2" element={<TwoT2/>} />
+        <Route path="/pt3start" element={<ThreeStart/>} />
+        <Route path="/pt3q1" element={<ThreeQ1/>} />
+        <Route path="/pt3q1w" element={<ThreeQ1W/>} />
+        <Route path="/pt3t1" element={<ThreeT1/>} />
+        <Route path="/pt3q2" element={<ThreeQ2/>} />
+        <Route path="/pt3q2w" element={<ThreeQ2W/>} />
+        <Route path="/pt3t2" element={<ThreeT2/>} />
+        <Route path="/pt3q3" element={<ThreeQ3/>} />
+        <Route path="/pt3q3w" element={<ThreeQ3W/>} />
+        <Route path="/pt3t3" element={<ThreeT3/>} />
+        <Route path="/pt3q4" element={<ThreeQ4/>} />
+        <Route path="/pt3q4w" element={<ThreeQ4W/>} />
+        <Route path="/pt3t4" element={<ThreeT4/>} />
+        <Route path="/pt3t5" element={<ThreeT5/>} />
+
         <Route path="/retry" element={<Retry/>} />
         <Route path="/end" element={<End/>} />
       </Routes>

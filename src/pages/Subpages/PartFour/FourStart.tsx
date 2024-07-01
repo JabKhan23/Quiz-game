@@ -6,6 +6,9 @@ const FourStart: React.FC = () => {
     return (
       <div>
         <h1>Part 4: The Trend</h1>
+        <div className="parthome">
+      <button className="home" onClick={() => navigate('/home')}>Home</button>
+   
         <h2><br/>The year is 2824. The place is the Daedalus-4, a gigantic spaceship travelling among the stars.<br/><br/>
 
 You are a robot: model XC-J4B, but everyone calls you Jab. You are a class XC droid, designed to roam the lower decks, reclaim and repurpose metallic resources for sustainable reintegration - a fancier way of saying you pick up junk all day.<br/><br/>
@@ -17,7 +20,7 @@ Robot society is not that different from the human one, with one big exception: 
 Unbeknownst to you, in a different corner of the galaxy, there floats a bit of stardust that was once an activist named Greta Thunberg. If she were alive to see what had happened to her beloved planet and society, she wouldn't be happy.
 <br/><br/>
 
-</h2>
+</h2> </div>
     <button onClick={() => navigate('/pt4q1')}>Next</button>  
       </div>
     );

@@ -4,8 +4,10 @@ const FourQ2: React.FC = () => {
     const navigate = useNavigate();
 
     return (
-      <div>
-        <h2>
+      <div>    <div className="parthome">
+      <button className="home" onClick={() => navigate('/home')}>Home</button>
+  
+        <h2> 
         You take the curious object to Tin, the scrap trader.<br/><br/>
 
 "I believe that is a fork," it says. "The humans originally designed them as tools for feeding themselves, but my records say they were used for many things as time went on."<br/><br/>
@@ -20,7 +22,7 @@ const FourQ2: React.FC = () => {
 
 What is your decision?
 <br/><br/>
-</h2>
+</h2> </div>
         <button onClick={() => navigate('/pt4q3')}>Keep the fork</button>
         <button onClick={() => navigate('/pt4q2w')}>Sell the fork
         </button>

@@ -4,7 +4,9 @@ const TwoT2: React.FC = () => {
     const navigate = useNavigate();
 
     return (
-      <div>
+      <div>    <div className="parthome">
+      <button className="home" onClick={() => navigate('/home')}>Home</button>
+   
         <h2>That's right, it was a fork - an unexpected, yet deadly weapon.<br/><br/>
 
 You reach the bottom of your stairs, where your hero costume is displayed behind thick, bullet-proof glass. You observe it: a silver armour with four sharp spikes protruding from the helmet.<br/><br/>
@@ -15,7 +17,7 @@ You suit up and go serve some cold justice. The city is safe in the care of the 
 <br/><br/>
 
 
-</h2>
+</h2>   </div>
     <button onClick={() => navigate('/pt3start')}>Continue to Part 3</button>  
       </div>
     );

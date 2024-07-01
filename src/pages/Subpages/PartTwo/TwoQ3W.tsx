@@ -4,7 +4,9 @@ const TwoQ3W: React.FC = () => {
     const navigate = useNavigate();
 
     return (
-      <div>
+      <div>   <div className="parthome">
+      <button className="home" onClick={() => navigate('/home')}>Home</button>
+     
         <h2>Wow. A spoon. Seriously. Your dear old dad was killed by a spoon. Whatever.<br/><br/>
 
 You are the hero known as The Silver Spoon.<br/><br/>
@@ -15,7 +17,7 @@ You suit up and go serve some cold justice. However, because of the size and wei
 <br/><br/>
 
 
-</h2>
+</h2> </div>
 <button onClick={() => navigate(-1)}>Try again</button>
       </div>
     );

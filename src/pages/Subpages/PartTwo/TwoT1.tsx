@@ -4,7 +4,9 @@ const TwoT1: React.FC = () => {
     const navigate = useNavigate();
 
     return (
-      <div>
+      <div>   <div className="parthome">
+      <button className="home" onClick={() => navigate('/home')}>Home</button>
+     
         <h2>A voice creeps in from behind the man and his son: "Excuse me."<br/><br/>
 
 As the father turns, the other man - a thief - lunges at him. The boy steps back, terrified, but his dad is stronger and faster than the other man; he starts cheering his old man on.<br/><br/>
@@ -16,7 +18,7 @@ Just as the weapon is about to make contact...
 <br/><br/>
 
 
-</h2>
+</h2> </div>
     <button onClick={() => navigate('/pt2q1')}>Next</button>  
       </div>
     );

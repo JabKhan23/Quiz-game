@@ -4,13 +4,15 @@ const ThreeQ3: React.FC = () => {
     const navigate = useNavigate();
 
     return (
-      <div>
+      <div>   <div className="parthome">
+      <button className="home" onClick={() => navigate('/home')}>Home</button>
+      
         <h2>
         To add an extra bit of colour and personality, you decide to crochet a flower brooch for your grandchild.<br/><br/>
 
 How do you go about doing that?
 <br/><br/>
-</h2>
+</h2> </div>
         <button onClick={() => navigate('/pt3q3w')}>Knitting needles</button>
         <button onClick={() => navigate('/pt3t3')}>Sewing needle and fork
         </button>

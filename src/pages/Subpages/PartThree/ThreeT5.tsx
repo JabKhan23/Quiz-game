@@ -4,7 +4,9 @@ const ThreeT5: React.FC = () => {
     const navigate = useNavigate();
 
     return (
-      <div>
+      <div>     <div className="parthome">
+      <button className="home" onClick={() => navigate('/home')}>Home</button>
+
         <h2>Time passes - it is late at night.<br/><br/>
 
 You managed to calm the children down and tucked them into bed.<br/><br/>
@@ -15,7 +17,7 @@ Right now you relax and look up at the night sky, wondering if there's anything 
 <br/><br/>
 
 
-</h2>
+</h2>   </div>
     <button onClick={() => navigate('/pt4start')}>Continue to Part 4</button>  
       </div>
     );

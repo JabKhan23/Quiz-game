@@ -5,6 +5,9 @@ const OneT4: React.FC = () => {
 
     return (
       <div>
+           <div className="parthome">
+        <button className="home" onClick={() => navigate('/home')}>Home</button>
+      
         <h2>You look out the window; across the street is a renowned 5-star hotel. There seems to be some sort of event going on.<br/><br/>
 
 "Apparently there's some sort of business convention going on there," Alice clarifies. "I mean a big one; CEOs from a bunch of big companies are attending."<br/><br/>
@@ -19,7 +22,7 @@ You smile. "I think I've got an idea."
 
 <br/><br/>
 
-</h2>
+</h2>  </div>
     <button onClick={() => navigate('/pt2start')}>Continue to Part 2</button>  
       </div>
     );

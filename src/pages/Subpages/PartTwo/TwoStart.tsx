@@ -4,8 +4,12 @@ const TwoStart: React.FC = () => {
     const navigate = useNavigate();
 
     return (
-      <div>
+      <div>          
         <h1>Part 2: The Symbol</h1>
+         <div className="parthome">
+      <button className="home" onClick={() => navigate('/home')}>Home</button>
+      
+
         <h2><br/>A man is behind prison bars, screaming: "I'll get out of here, just you wait!"<br/><br/>
 
 End titles appear over him: this is the end of a film playing on the big screen. The credits roll.<br/><br/>
@@ -16,7 +20,7 @@ Outside, the boy points to an alleyway. "Let's take the shortcut," he suggests.<
 
 They go down the alleyway, but don't notice that they are being followed.<br/><br/>
 
-</h2>
+</h2> </div>
     <button onClick={() => navigate('/pt2t1')}>Next</button>  
       </div>
     );

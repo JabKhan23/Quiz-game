@@ -4,7 +4,9 @@ const FourQ3: React.FC = () => {
     const navigate = useNavigate();
 
     return (
-      <div>
+      <div>     <div className="parthome">
+      <button className="home" onClick={() => navigate('/home')}>Home</button>
+   
         <h2>
         You decide to keep the fork, there's something special about it. You go home to your 1.5 meter wide by 1.5 meter long by 1.8 meter tall cubicle.<br/><br/>
 
@@ -16,7 +18,7 @@ You can't go without a nose.<br/><br/>
 
 Can you?
 <br/><br/>
-</h2>
+</h2> </div>
         <button onClick={() => navigate('/pt4t2')}>Use the fork as a nose</button>
         <button onClick={() => navigate('/pt4q3w')}>Go without a nose
         </button>

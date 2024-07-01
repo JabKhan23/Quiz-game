@@ -5,6 +5,9 @@ const OneT3: React.FC = () => {
 
     return (
       <div>
+           <div className="parthome">
+        <button className="home" onClick={() => navigate('/home')}>Home</button>
+        
         <h2>More time passes. You are both finished with your meals.<br/><br/>
 
 Alice is in deep thought. "You know, I've been thinking... When it comes to what I want to do in life, I only really thought about money."<br/><br/>
@@ -19,7 +22,7 @@ You smile.<br/><br/>
 
 <br/><br/>
 
-</h2>
+</h2></div>
     <button onClick={() => navigate('/pt1t4')}>Next</button>  
       </div>
     );

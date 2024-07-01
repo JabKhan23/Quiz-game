@@ -40,6 +40,16 @@ import ThreeQ4 from './pages/Subpages/PartThree/ThreeQ4';
 import ThreeQ4W from './pages/Subpages/PartThree/ThreeQ4W';
 import ThreeT4 from './pages/Subpages/PartThree/ThreeT4';
 import ThreeT5 from './pages/Subpages/PartThree/ThreeT5';
+import FourStart from './pages/Subpages/PartFour/FourStart';
+import FourQ1 from './pages/Subpages/PartFour/FourQ1';
+import FourQ1W from './pages/Subpages/PartFour/FourQ1W';
+import FourT1 from './pages/Subpages/PartFour/FourT1';
+import FourQ2 from './pages/Subpages/PartFour/FourQ2';
+import FourQ2W from './pages/Subpages/PartFour/FourQ2W';
+import FourQ3 from './pages/Subpages/PartFour/FourQ3';
+import FourQ3W from './pages/Subpages/PartFour/FourQ3W';
+import FourT2 from './pages/Subpages/PartFour/FourT2';
+import FourT3 from './pages/Subpages/PartFour/FourT3';
 
 
 const App: React.FC = () => {
@@ -81,6 +91,16 @@ const App: React.FC = () => {
         <Route path="/pt3q4w" element={<ThreeQ4W/>} />
         <Route path="/pt3t4" element={<ThreeT4/>} />
         <Route path="/pt3t5" element={<ThreeT5/>} />
+        <Route path="/pt4start" element={<FourStart/>} />
+        <Route path="/pt4q1" element={<FourQ1/>} />
+        <Route path="/pt4q1w" element={<FourQ1W/>} />
+        <Route path="/pt4t1" element={<FourT1/>} />
+        <Route path="/pt4q2" element={<FourQ2/>} />
+        <Route path="/pt4q2w" element={<FourQ2W/>} />
+        <Route path="/pt4q3" element={<FourQ3/>} />
+        <Route path="/pt4q3w" element={<FourQ3W/>} />
+        <Route path="/pt4t2" element={<FourT2/>} />
+        <Route path="/pt4t3" element={<FourT3/>} />
 
         <Route path="/retry" element={<Retry/>} />
         <Route path="/end" element={<End/>} />

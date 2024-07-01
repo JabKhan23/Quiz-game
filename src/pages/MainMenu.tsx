@@ -28,7 +28,7 @@ const MainMenu: React.FC = () => {
       setErrors({ password: 'Invalid Password' });
     } else {
       navigate('/home');
-      alert('Welcome Alex');
+      alert('Welcome! Press `OK` to continue.');
     }
 
     setSubmitting(false);
@@ -42,12 +42,12 @@ const MainMenu: React.FC = () => {
     >
       {({ isSubmitting }) => (
         <Form>
-       <h2>Please enter password to continue</h2>
+       <h2>Please enter password to continue</h2><br/>
           <div>
-            <label htmlFor="password">Password: </label>
+            <label htmlFor="password"></label>
             <Field type="password" id="password" name="password" />
             <ErrorMessage name="password" component="div" style={{ color: 'red' }} />
-          </div>
+          </div> <br/><br/>
           <button type="submit" disabled={isSubmitting}>Submit</button>
         </Form>
       )}

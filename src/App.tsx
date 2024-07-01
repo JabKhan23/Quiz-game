@@ -103,7 +103,7 @@ const App: React.FC = () => {
         <Route path="/pt4t3" element={<FourT3/>} />
 
         <Route path="/retry" element={<Retry/>} />
-        <Route path="/end" element={<End/>} />
+        <Route path="/endpage" element={<End/>} />
       </Routes>
     </Router>
   );

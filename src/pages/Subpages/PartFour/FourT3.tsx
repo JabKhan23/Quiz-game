@@ -18,7 +18,7 @@ You keep wearing your fork nose as a reminder of who you are and where you start
 
 
 </h2> 
-    <button onClick={() => navigate('/end')}>Next</button>  
+    <button onClick={() => navigate('/endpage')}>Next</button>  
       </div>
     );
 }

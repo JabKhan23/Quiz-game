@@ -5,7 +5,6 @@ const OneT2: React.FC = () => {
 
     return (
       <div>
-           <div className="parthome">
         <button className="home" onClick={() => navigate('/home')}>Home</button>
       
         <h2>You leave the plastic cutlery and start digging into your bag. You pull out a metal fork.<br/><br/>
@@ -22,7 +21,7 @@ You hand Alice another metal fork. She finds it a bit funny but genuinely apprec
 
 "I've got metal straws too. Let me know if you need one," you add.<br/><br/>
 
-</h2>  </div>
+</h2> 
     <button onClick={() => navigate('/pt1t3')}>Next</button>  
       </div>
     );

@@ -4,7 +4,7 @@ const ThreeQ3: React.FC = () => {
     const navigate = useNavigate();
 
     return (
-      <div>   <div className="parthome">
+      <div>   
       <button className="home" onClick={() => navigate('/home')}>Home</button>
       
         <h2>
@@ -12,8 +12,8 @@ const ThreeQ3: React.FC = () => {
 
 How do you go about doing that?
 <br/><br/>
-</h2> </div>
-        <button onClick={() => navigate('/pt3q3w')}>Knitting needles</button>
+</h2>
+        <button onClick={() => navigate('/pt3q3w')}>Big knitting needles</button>
         <button onClick={() => navigate('/pt3t3')}>Sewing needle and fork
         </button>
       </div>

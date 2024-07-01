@@ -4,7 +4,7 @@ const TwoQ2W: React.FC = () => {
     const navigate = useNavigate();
 
     return (
-      <div>   <div className="parthome">
+      <div>  
       <button className="home" onClick={() => navigate('/home')}>Home</button>
     
         <h2>You pull out the book about baking; it's not the correct one, but it caught your eye. You start flicking through it.<br/><br/>
@@ -23,7 +23,7 @@ Albert tries to get your attention: "We need to get going, Master Wade."<br/><br
 <br/><br/>
 
 
-</h2>  </div>
+</h2> 
 <button onClick={() => navigate(-1)}>Try again</button>
       </div>
     );

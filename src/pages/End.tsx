@@ -6,9 +6,9 @@ const End: React.FC = () => {
 
   return (
     <div>
-      <h1>The End</h1>
+      <h1 className='byAlex'>The End</h1>
       <br/>
-      <h2>Thank you for playing!</h2><br/><br/>
+      <h2 className='homeTitle'>Thank you for playing!</h2><br/><br/>
       <button onClick={() => navigate('/home')}>Back to Main Menu</button>
    
     </div>

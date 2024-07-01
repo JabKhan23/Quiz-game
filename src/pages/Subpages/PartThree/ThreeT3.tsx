@@ -4,7 +4,7 @@ const ThreeT3: React.FC = () => {
     const navigate = useNavigate();
 
     return (
-      <div>     <div className="parthome">
+      <div>    
       <button className="home" onClick={() => navigate('/home')}>Home</button>
   
         <h2>You find some yarn and get to work.<br/><br/>
@@ -17,7 +17,7 @@ Job done! But it's getting late, where is Tommy?
 <br/><br/>
 
 
-</h2> </div>
+</h2>
     <button onClick={() => navigate('/pt3q4')}>Next</button>  
       </div>
     );

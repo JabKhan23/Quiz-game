@@ -4,7 +4,7 @@ const TwoT2: React.FC = () => {
     const navigate = useNavigate();
 
     return (
-      <div>    <div className="parthome">
+      <div>   
       <button className="home" onClick={() => navigate('/home')}>Home</button>
    
         <h2>That's right, it was a fork - an unexpected, yet deadly weapon.<br/><br/>
@@ -17,7 +17,7 @@ You suit up and go serve some cold justice. The city is safe in the care of the 
 <br/><br/>
 
 
-</h2>   </div>
+</h2>  
     <button onClick={() => navigate('/pt3start')}>Continue to Part 3</button>  
       </div>
     );

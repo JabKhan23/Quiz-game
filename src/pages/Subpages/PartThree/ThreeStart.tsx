@@ -7,7 +7,7 @@ const ThreeStart: React.FC = () => {
 
       
       <div>   <h1>Part 3: The Multi Tool</h1>
-       <div className="parthome">
+      
       <button className="home" onClick={() => navigate('/home')}>Home</button>
    
         
@@ -23,7 +23,7 @@ When you were a little girl, your granny told you that before the Last War, back
 
 <br/><br/>
 
-</h2>  </div>
+</h2> 
     <button onClick={() => navigate('/pt3q1')}>Next</button>  
       </div>
     );

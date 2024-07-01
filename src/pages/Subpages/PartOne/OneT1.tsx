@@ -4,7 +4,7 @@ const OneT1: React.FC = () => {
     const navigate = useNavigate();
 
     return (
-      <div>   <div className="parthome">
+      <div>  
       <button className="home" onClick={() => navigate('/home')}>Home</button>
      
         <h2>You ask: "Is the avocado toast vegan? And are the avocados ethically sourced?"<br/><br/>
@@ -18,7 +18,7 @@ That burger did sound pretty good, but you're not going to let go of your princi
 You are happy with your choice.<br/><br/>
 
 
-</h2> </div>
+</h2> 
     <button onClick={() => navigate('/pt1q2')}>Next</button>  
       </div>
     );

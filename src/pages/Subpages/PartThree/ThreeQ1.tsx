@@ -4,7 +4,7 @@ const ThreeQ1: React.FC = () => {
     const navigate = useNavigate();
 
     return (
-      <div>   <div className="parthome">
+      <div>   
       <button className="home" onClick={() => navigate('/home')}>Home</button>
      
         <h2>
@@ -14,7 +14,7 @@ You decide to dedicate your day to giving her a makeover, starting with the hair
 
 How do you brush her hair?
 <br/><br/>
-</h2> </div>
+</h2> 
         <button onClick={() => navigate('/pt3q1w')}>With your fingers</button>
         <button onClick={() => navigate('/pt3t1')}>With the fork
         </button>

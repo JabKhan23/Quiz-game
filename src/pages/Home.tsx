@@ -5,11 +5,14 @@ const Home: React.FC = () => {
 
     return (
       <div>
-        <h1>McCann Creative Task
+        <h1 className="homeTitle">The Creative Task
         </h1>
-        <h2>By Alex Dinu</h2>
+        <h2 className="byAlex">by Alex Dinu</h2>
+        <br/>
+        <div className="center">
         <button onClick={() => navigate('/pt1start')}>Start</button>
         <button onClick={() => navigate('/info')}>Instructions</button>
+        </div>
       </div>
     );
 }

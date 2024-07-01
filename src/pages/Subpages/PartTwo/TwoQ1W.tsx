@@ -4,7 +4,7 @@ const TwoQ1W: React.FC = () => {
     const navigate = useNavigate();
 
     return (
-      <div>   <div className="parthome">
+      <div>   
       <button className="home" onClick={() => navigate('/home')}>Home</button>
       
         <h2>Ah, it's a bat. It's for that new guy, the bat person... What was his name again? Something dumb, probably.<br/><br/>
@@ -25,7 +25,6 @@ Albert gives up and goes back inside. <i>I should've never taken this job</i>, h
 
 
 </h2> 
-</div>
 <button onClick={() => navigate(-1)}>Try again</button>
       </div>
     );

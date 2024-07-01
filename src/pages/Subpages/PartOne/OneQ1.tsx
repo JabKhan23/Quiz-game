@@ -4,8 +4,8 @@ const OneQ1: React.FC = () => {
     const navigate = useNavigate();
 
     return (
-      <div>
-        <div className="parthome">
+      <div className="oneFont">
+
         <button className="home" onClick={() => navigate('/home')}>Home</button>
         
         <h2>
@@ -13,7 +13,6 @@ const OneQ1: React.FC = () => {
         "Hi there," she says. "Are you ready to order?"<br/><br/>
         What would you like to order?<br/><br/>
 </h2>
-</div>
         <button onClick={() => navigate('/pt1t1')}>Avocado toast</button>
         <button onClick={() => navigate('/pt1q1w')}>Triple patty buffalo cheeseburger
         </button>

@@ -4,7 +4,7 @@ const FourQ3: React.FC = () => {
     const navigate = useNavigate();
 
     return (
-      <div>     <div className="parthome">
+      <div>  
       <button className="home" onClick={() => navigate('/home')}>Home</button>
    
         <h2>
@@ -18,7 +18,7 @@ You can't go without a nose.<br/><br/>
 
 Can you?
 <br/><br/>
-</h2> </div>
+</h2> 
         <button onClick={() => navigate('/pt4t2')}>Use the fork as a nose</button>
         <button onClick={() => navigate('/pt4q3w')}>Go without a nose
         </button>

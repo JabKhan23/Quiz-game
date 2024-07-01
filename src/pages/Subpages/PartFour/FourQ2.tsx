@@ -4,7 +4,7 @@ const FourQ2: React.FC = () => {
     const navigate = useNavigate();
 
     return (
-      <div>    <div className="parthome">
+      <div>  
       <button className="home" onClick={() => navigate('/home')}>Home</button>
   
         <h2> 
@@ -22,7 +22,7 @@ const FourQ2: React.FC = () => {
 
 What is your decision?
 <br/><br/>
-</h2> </div>
+</h2> 
         <button onClick={() => navigate('/pt4q3')}>Keep the fork</button>
         <button onClick={() => navigate('/pt4q2w')}>Sell the fork
         </button>

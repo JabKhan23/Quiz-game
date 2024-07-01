@@ -6,7 +6,6 @@ const TwoStart: React.FC = () => {
     return (
       <div>          
         <h1>Part 2: The Symbol</h1>
-         <div className="parthome">
       <button className="home" onClick={() => navigate('/home')}>Home</button>
       
 
@@ -20,7 +19,7 @@ Outside, the boy points to an alleyway. "Let's take the shortcut," he suggests.<
 
 They go down the alleyway, but don't notice that they are being followed.<br/><br/>
 
-</h2> </div>
+</h2>
     <button onClick={() => navigate('/pt2t1')}>Next</button>  
       </div>
     );

@@ -4,7 +4,7 @@ const TwoQ1: React.FC = () => {
     const navigate = useNavigate();
 
     return (
-      <div>   <div className="parthome">
+      <div>   
       <button className="home" onClick={() => navigate('/home')}>Home</button>
      
         <h2>
@@ -25,7 +25,7 @@ A beaming light. A signal against the ashy clouds. A call for a hero to emerge f
 You squint: What is the signal in the sky?
 
 <br/><br/>
-</h2> </div>
+</h2> 
         <button onClick={() => navigate('/pt2q2')}>It's your signal</button>
         <button onClick={() => navigate('/pt2q1w')}>It's a bat
         </button>

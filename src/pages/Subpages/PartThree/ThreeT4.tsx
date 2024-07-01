@@ -4,7 +4,7 @@ const ThreeT4: React.FC = () => {
     const navigate = useNavigate();
 
     return (
-      <div>     <div className="parthome">
+      <div>  
       <button className="home" onClick={() => navigate('/home')}>Home</button>
   
         <h2>You fling the fork - it hits the bull's eye (or, in this case, the raider's eye)!<br/><br/>
@@ -15,7 +15,7 @@ You have managed protecting them.
 <br/><br/>
 
 
-</h2> </div>
+</h2> 
     <button onClick={() => navigate('/pt3t5')}>Next</button>  
       </div>
     );

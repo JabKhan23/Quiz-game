@@ -4,7 +4,7 @@ const FourQ1: React.FC = () => {
     const navigate = useNavigate();
 
     return (
-      <div>     <div className="parthome">
+      <div>    
       <button className="home" onClick={() => navigate('/home')}>Home</button>
 
         <h2>
@@ -16,7 +16,7 @@ You have been working all day, picking up random junk and tossing it in your car
 
 Do you want to go home?
 <br/><br/>
-</h2>   </div>
+</h2>  
         <button onClick={() => navigate('/pt4q1w')}>Yes</button>
         <button onClick={() => navigate('/pt4t1')}>Not yet
         </button>

@@ -13,7 +13,7 @@ Throughout the stories, you will sometimes need to choose between two options.<b
 
 If you choose the incorrect option, don't worry - you will be told what your choice led to, then have the option to go back to the question.<br/><br/>
 
-Thank you! Please do not hesitate to get in touch if you have any questions or issues: <b>mihnea.dinu100@gmail.com</b><br/><br/>
+Thank you! Please do not hesitate to get in touch if you have any questions or issues:<br/><b>mihnea.dinu100@gmail.com</b><br/><br/>
 
 
         </h2>

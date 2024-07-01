@@ -4,7 +4,7 @@ const ThreeQ2: React.FC = () => {
     const navigate = useNavigate();
 
     return (
-      <div>    <div className="parthome">
+      <div>    
       <button className="home" onClick={() => navigate('/home')}>Home</button>
   
         <h2>
@@ -14,7 +14,7 @@ There's something on the desk. You blow the dust off of it: it's an old school, 
 
 How do you measure the pleats?
 <br/><br/>
-</h2>    </div>
+</h2>   
         <button onClick={() => navigate('/pt3t2')}>Use the fork</button>
         <button onClick={() => navigate('/pt3q2w')}>Eyeball it
         </button>

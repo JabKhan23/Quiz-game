@@ -4,7 +4,7 @@ const FourT3: React.FC = () => {
     const navigate = useNavigate();
 
     return (
-      <div>     <div className="parthome">
+      <div>    
       <button className="home" onClick={() => navigate('/home')}>Home</button>
   
         <h2>Time passes. You and Zip start a business, manufacturing and selling forks to everyone in high society. The Edisons start rolling in, but you know how the world works: trends come and go. Nowadays, pizza cutter noses are what's gaining popularity - the spin feature made them extra enticing.<br/><br/>
@@ -17,7 +17,7 @@ You keep wearing your fork nose as a reminder of who you are and where you start
 <br/><br/>
 
 
-</h2> </div>
+</h2> 
     <button onClick={() => navigate('/end')}>Next</button>  
       </div>
     );

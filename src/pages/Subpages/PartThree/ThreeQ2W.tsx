@@ -4,7 +4,7 @@ const ThreeQ2W: React.FC = () => {
     const navigate = useNavigate();
 
     return (
-      <div>    <div className="parthome">
+      <div>    
       <button className="home" onClick={() => navigate('/home')}>Home</button>
       
         <h2>You haven't used the sewing machine in a while, but you've still got the skills. You know you can get the pleats right by just eyeballing them...<br/><br/>
@@ -13,7 +13,7 @@ Except that you can't. The pleats end up being uneven and the skirt lopsided. Yo
 <br/><br/>
 
 
-</h2> </div>
+</h2> 
 <button onClick={() => navigate(-1)}>Try again</button>
       </div>
     );

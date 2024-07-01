@@ -4,7 +4,7 @@ const FourQ2W: React.FC = () => {
     const navigate = useNavigate();
 
     return (
-      <div>     <div className="parthome">
+      <div>    
       <button className="home" onClick={() => navigate('/home')}>Home</button>
    
         <h2>You sell the fork and travel to the Daedalus's casino to play the Feature Machine.<br/><br/>
@@ -19,7 +19,7 @@ You get absolutely nothing.
 <br/><br/>
 
 
-</h2> </div>
+</h2> 
 <button onClick={() => navigate(-1)}>Try again</button>
       </div>
     );

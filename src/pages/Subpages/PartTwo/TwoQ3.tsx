@@ -4,7 +4,7 @@ const TwoQ3: React.FC = () => {
     const navigate = useNavigate();
 
     return (
-      <div>   <div className="parthome">
+      <div> 
       <button className="home" onClick={() => navigate('/home')}>Home</button>
      
         <h2>
@@ -14,7 +14,7 @@ As you descend down the steps, you remember the fateful night your father died. 
 
 What was the weapon?
 <br/><br/>
-</h2> </div>
+</h2> 
         <button onClick={() => navigate('/pt2t2')}>A fork</button>
         <button onClick={() => navigate('/pt2q3w')}>A spoon
         </button>

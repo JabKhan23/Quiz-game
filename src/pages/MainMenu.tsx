@@ -42,13 +42,17 @@ const MainMenu: React.FC = () => {
     >
       {({ isSubmitting }) => (
         <Form>
-       <h2>Please enter password to continue</h2><br/>
+
+       <h2>Please enter password</h2><br/>
           <div>
             <label htmlFor="password"></label>
             <Field type="password" id="password" name="password" />
             <ErrorMessage name="password" component="div" style={{ color: 'red' }} />
           </div> <br/><br/>
-          <button type="submit" disabled={isSubmitting}>Submit</button>
+          <div className='center'>
+          <button className="submitBtn" type="submit" disabled={isSubmitting}>Submit</button>
+          </div>
+
         </Form>
       )}
     </Formik>

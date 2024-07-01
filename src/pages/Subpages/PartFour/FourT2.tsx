@@ -4,7 +4,7 @@ const FourT2: React.FC = () => {
     const navigate = useNavigate();
 
     return (
-      <div>     <div className="parthome">
+      <div>    
       <button className="home" onClick={() => navigate('/home')}>Home</button>
    
         <h2>You stick the fork onto your face with some epoxy, prongs facing downwards. It actually does wonders for your facial harmony; you are feeling good.<br/><br/>
@@ -21,7 +21,7 @@ A crowd forms around the two of you; everyone starts talking, making comments ab
 <br/><br/>
 
 
-</h2> </div>
+</h2>
     <button onClick={() => navigate('/pt4t3')}>Next</button>  
       </div>
     );

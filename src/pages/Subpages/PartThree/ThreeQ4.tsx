@@ -4,7 +4,7 @@ const ThreeQ4: React.FC = () => {
     const navigate = useNavigate();
 
     return (
-      <div>    <div className="parthome">
+      <div>  
       <button className="home" onClick={() => navigate('/home')}>Home</button>
    
         <h2>
@@ -16,7 +16,7 @@ The raider is large, hairy and covered in ugly tattoos.<br/><br/>
 
 What do you do?
 <br/><br/>
-</h2>  </div>
+</h2>  
         <button onClick={() => navigate('/pt3q4w')}>Surrender</button>
         <button onClick={() => navigate('/pt3t4')}>Throw the fork
         </button>

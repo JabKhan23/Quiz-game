@@ -5,7 +5,7 @@ const OneT2: React.FC = () => {
 
     return (
       <div>
-        <button className="home" onClick={() => navigate('/home')}>Home</button>
+        <button className="home" onClick={() => navigate('/mainmenupage')}>Back to Main Menu</button>
       
         <h2>You leave the plastic cutlery and start digging into your bag. You pull out a metal fork.<br/><br/>
 

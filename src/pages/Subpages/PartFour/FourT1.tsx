@@ -5,7 +5,7 @@ const FourT1: React.FC = () => {
 
     return (
       <div>    
-      <button className="home" onClick={() => navigate('/home')}>Home</button>
+      <button className="home" onClick={() => navigate('/mainmenupage')}>Back to Main Menu</button>
   
         <h2>You're not ready to give up yet - just a bit longer.<br/><br/>
 

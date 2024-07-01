@@ -7,7 +7,7 @@ const FourStart: React.FC = () => {
       <div>
         <h1>Part 4: The Trend</h1>
        
-      <button className="home" onClick={() => navigate('/home')}>Home</button>
+      <button className="home" onClick={() => navigate('/mainmenupage')}>Back to Main Menu</button>
    
         <h2><br/>The year is 2824. The place is the Daedalus-4, a gigantic spaceship travelling among the stars.<br/><br/>
 

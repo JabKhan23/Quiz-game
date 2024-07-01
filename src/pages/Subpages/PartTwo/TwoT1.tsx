@@ -5,7 +5,7 @@ const TwoT1: React.FC = () => {
 
     return (
       <div>  
-      <button className="home" onClick={() => navigate('/home')}>Home</button>
+      <button className="home" onClick={() => navigate('/mainmenupage')}>Back to Main Menu</button>
      
         <h2>A voice creeps in from behind the man and his son: "Excuse me."<br/><br/>
 

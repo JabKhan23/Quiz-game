@@ -5,7 +5,7 @@ const FourT3: React.FC = () => {
 
     return (
       <div>    
-      <button className="home" onClick={() => navigate('/home')}>Home</button>
+      <button className="home" onClick={() => navigate('/mainmenupage')}>Back to Main Menu</button>
   
         <h2>Time passes. You and Zip start a business, manufacturing and selling forks to everyone in high society. The Edisons start rolling in, but you know how the world works: trends come and go. Nowadays, pizza cutter noses are what's gaining popularity - the spin feature made them extra enticing.<br/><br/>
 

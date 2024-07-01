@@ -5,7 +5,7 @@ const FourQ3W: React.FC = () => {
 
     return (
       <div>     
-      <button className="home" onClick={() => navigate('/home')}>Home</button>
+      <button className="home" onClick={() => navigate('/mainmenupage')}>Back to Main Menu</button>
    
         <h2>You decide to go as without a nose. You've read the archives: some human didn't have them either. Your face is face-y enough as it is.<br/><br/>
 

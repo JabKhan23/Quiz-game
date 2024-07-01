@@ -5,7 +5,7 @@ const TwoQ2W: React.FC = () => {
 
     return (
       <div>  
-      <button className="home" onClick={() => navigate('/home')}>Home</button>
+      <button className="home" onClick={() => navigate('/mainmenupage')}>Back to Main Menu</button>
     
         <h2>You pull out the book about baking; it's not the correct one, but it caught your eye. You start flicking through it.<br/><br/>
 

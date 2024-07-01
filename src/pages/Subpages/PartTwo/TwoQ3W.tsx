@@ -5,7 +5,7 @@ const TwoQ3W: React.FC = () => {
 
     return (
       <div>   
-      <button className="home" onClick={() => navigate('/home')}>Home</button>
+      <button className="home" onClick={() => navigate('/mainmenupage')}>Back to Main Menu</button>
      
         <h2>Wow. A spoon. Seriously. Your dear old dad was killed by a spoon. Whatever you say.<br/><br/>
 

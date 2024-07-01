@@ -5,7 +5,7 @@ const FourQ2: React.FC = () => {
 
     return (
       <div>  
-      <button className="home" onClick={() => navigate('/home')}>Home</button>
+      <button className="home" onClick={() => navigate('/mainmenupage')}>Back to Main Menu</button>
   
         <h2> 
         You take the curious object to Tin, the scrap trader.<br/><br/>

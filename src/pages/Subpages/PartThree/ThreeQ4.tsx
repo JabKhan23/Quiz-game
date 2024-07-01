@@ -5,7 +5,7 @@ const ThreeQ4: React.FC = () => {
 
     return (
       <div>  
-      <button className="home" onClick={() => navigate('/home')}>Home</button>
+      <button className="home" onClick={() => navigate('/mainmenupage')}>Back to Main Menu</button>
    
         <h2>
         A raider bursts through the front door, holding Tommy under his arm. The boy kicks and tries to free himself, but he is too small and weak.<br/><br/>

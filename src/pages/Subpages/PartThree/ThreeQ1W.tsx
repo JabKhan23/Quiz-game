@@ -5,7 +5,7 @@ const ThreeQ1W: React.FC = () => {
 
     return (
       <div>   
-      <button className="home" onClick={() => navigate('/home')}>Home</button>
+      <button className="home" onClick={() => navigate('/mainmenupage')}>Back to Main Menu</button>
      
         <h2>You do your best to brush Lucy's hair with your fingers, but it doesn't really work. Her hair ends up even frizzier; her head looks like a tumbleweed.<br/><br/>
 

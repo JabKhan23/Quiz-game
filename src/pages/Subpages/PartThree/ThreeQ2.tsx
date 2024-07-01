@@ -5,7 +5,7 @@ const ThreeQ2: React.FC = () => {
 
     return (
       <div>    
-      <button className="home" onClick={() => navigate('/home')}>Home</button>
+      <button className="home" onClick={() => navigate('/mainmenupage')}>Back to Main Menu</button>
   
         <h2>
         You pull out some baby blue fabric from a cupboard and take it to the desk in the corner of the room.<br/><br/>

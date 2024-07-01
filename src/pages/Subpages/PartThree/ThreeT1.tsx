@@ -5,7 +5,7 @@ const ThreeT1: React.FC = () => {
 
     return (
       <div>    
-      <button className="home" onClick={() => navigate('/home')}>Home</button>
+      <button className="home" onClick={() => navigate('/mainmenupage')}>Back to Main Menu</button>
   
         <h2>You use the fork to comb your granddaughter's hair. It takes a while, but you've got time to spare - there isn't much to do in the post-apocalyptic world.<br/><br/>
 

@@ -5,7 +5,7 @@ const OneStart: React.FC = () => {
 
     return (
       <div className="oneFont">
-            <button className="home" onClick={() => navigate('/home')}>Home</button>
+            <button className="home" onClick={() => navigate('/mainmenupage')}>Back to Main Menu</button>
             <h1>Part 1: The Inspiration</h1>
           
         <h2><br/>The year is 2018. The place is Stockholm.<br/><br/>

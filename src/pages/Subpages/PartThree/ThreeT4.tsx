@@ -5,7 +5,7 @@ const ThreeT4: React.FC = () => {
 
     return (
       <div>  
-      <button className="home" onClick={() => navigate('/home')}>Home</button>
+      <button className="home" onClick={() => navigate('/mainmenupage')}>Back to Main Menu</button>
   
         <h2>You fling the fork - it hits the bull's eye (or, in this case, the raider's eye)!<br/><br/>
 

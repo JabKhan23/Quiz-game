@@ -5,7 +5,7 @@ const TwoQ1W: React.FC = () => {
 
     return (
       <div>   
-      <button className="home" onClick={() => navigate('/home')}>Home</button>
+      <button className="home" onClick={() => navigate('/mainmenupage')}>Back to Main Menu</button>
       
         <h2>Ah, it's a bat. It's for that new guy, the bat person... What was his name again? Something dumb, probably.<br/><br/>
 

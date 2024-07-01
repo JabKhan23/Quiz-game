@@ -5,7 +5,7 @@ const OneQ1W: React.FC = () => {
 
     return (
       <div className="oneFont">
-        <button className="home" onClick={() => navigate('/home')}>Home</button>
+        <button className="home" onClick={() => navigate('/mainmenupage')}>Back to Main Menu</button>
        
         <h2>You have always been committed to making environmentally friendly choices - you even convinced your parents to become vegan with you... but wow, that burger sounds amazing.<br/><br/>
 

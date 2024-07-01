@@ -27,7 +27,7 @@ const MainMenu: React.FC = () => {
     if (values.password !== 'truthwelltold') {
       setErrors({ password: 'Invalid Password' });
     } else {
-      navigate('/home');
+      navigate('/mainmenupage');
       alert('Welcome! Press `OK` to continue.');
     }
 

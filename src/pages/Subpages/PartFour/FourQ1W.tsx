@@ -5,7 +5,7 @@ const FourQ1W: React.FC = () => {
 
     return (
       <div>    
-      <button className="home" onClick={() => navigate('/home')}>Home</button>
+      <button className="home" onClick={() => navigate('/mainmenupage')}>Back to Main Menu</button>
   
         <h2>You decide to go back for the day; your home is a 1.5 meter long by 1.5 meter wide by 1.8 meter tall cubicle.<br/><br/>
 

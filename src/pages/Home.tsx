@@ -11,7 +11,7 @@ const Home: React.FC = () => {
         <br/>
         <div className="center">
         <button onClick={() => navigate('/pt1start')}>Start</button>
-        <button onClick={() => navigate('/info')}>Instructions</button>
+        <button onClick={() => navigate('/instructionspage')}>Instructions</button>
         </div>
       </div>
     );

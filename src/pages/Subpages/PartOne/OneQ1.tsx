@@ -6,7 +6,7 @@ const OneQ1: React.FC = () => {
     return (
       <div className="oneFont">
 
-        <button className="home" onClick={() => navigate('/home')}>Home</button>
+        <button className="home" onClick={() => navigate('/mainmenupage')}>Back to Main Menu</button>
         
         <h2>
         A waitress comes over to your table.<br/><br/>

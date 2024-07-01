@@ -6,7 +6,7 @@ const TwoStart: React.FC = () => {
     return (
       <div>          
         <h1>Part 2: The Symbol</h1>
-      <button className="home" onClick={() => navigate('/home')}>Home</button>
+      <button className="home" onClick={() => navigate('/mainmenupage')}>Back to Main Menu</button>
       
 
         <h2><br/>A man is behind prison bars, screaming: "I'll get out of here, just you wait!"<br/><br/>

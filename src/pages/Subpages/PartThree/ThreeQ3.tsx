@@ -5,7 +5,7 @@ const ThreeQ3: React.FC = () => {
 
     return (
       <div>   
-      <button className="home" onClick={() => navigate('/home')}>Home</button>
+      <button className="home" onClick={() => navigate('/mainmenupage')}>Back to Main Menu</button>
       
         <h2>
         To add an extra bit of colour and personality, you decide to crochet a flower brooch for your grandchild.<br/><br/>

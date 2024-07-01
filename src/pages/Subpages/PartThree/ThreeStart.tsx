@@ -8,7 +8,7 @@ const ThreeStart: React.FC = () => {
       
       <div>   <h1>Part 3: The Multi Tool</h1>
       
-      <button className="home" onClick={() => navigate('/home')}>Home</button>
+      <button className="home" onClick={() => navigate('/mainmenupage')}>Back to Main Menu</button>
    
         
         <h2><br/>The year is 2158. The place is Scorchwood (formerly known as Chorlton, Manchester... before the world "ended").<br/><br/>

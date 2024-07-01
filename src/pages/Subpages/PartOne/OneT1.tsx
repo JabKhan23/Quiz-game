@@ -5,7 +5,7 @@ const OneT1: React.FC = () => {
 
     return (
       <div>  
-      <button className="home" onClick={() => navigate('/home')}>Home</button>
+      <button className="home" onClick={() => navigate('/mainmenupage')}>Back to Main Menu</button>
      
         <h2>You ask: "Is the avocado toast vegan? And are the avocados ethically sourced?"<br/><br/>
 

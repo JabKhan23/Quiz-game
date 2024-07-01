@@ -5,7 +5,7 @@ const TwoQ3: React.FC = () => {
 
     return (
       <div> 
-      <button className="home" onClick={() => navigate('/home')}>Home</button>
+      <button className="home" onClick={() => navigate('/mainmenupage')}>Back to Main Menu</button>
      
         <h2>
         You pull out the right book and the bookcase splits vertically from the middle, revealing the entrance to your secret lair: the silver cave known as the Cutlery Basket.<br/><br/>

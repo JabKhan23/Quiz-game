@@ -5,7 +5,7 @@ const ThreeQ1: React.FC = () => {
 
     return (
       <div>   
-      <button className="home" onClick={() => navigate('/home')}>Home</button>
+      <button className="home" onClick={() => navigate('/mainmenupage')}>Back to Main Menu</button>
      
         <h2>
         You look at Lucy: she is lovely as ever, but her hair is a mess and her clothes are old and dirty.<br/><br/> 

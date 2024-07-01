@@ -5,7 +5,7 @@ const ThreeQ4W: React.FC = () => {
 
     return (
       <div>    
-      <button className="home" onClick={() => navigate('/home')}>Home</button>
+      <button className="home" onClick={() => navigate('/mainmenupage')}>Back to Main Menu</button>
      
         <h2>You immediately surrender, pleading with the raider not to hurt the grandchildren. After all, you are seventy years old, what are you supposed to do - attack him?<br/><br/>
 

@@ -5,7 +5,7 @@ const OneQ2W: React.FC = () => {
 
   return (
     <div>
-        <button className="home" onClick={() => navigate('/home')}>Home</button>
+        <button className="home" onClick={() => navigate('/mainmenupage')}>Back to Main Menu</button>
       
       <h2>You think you have a metal fork with you, but... whatever. It's not worth the hassle. <br/><br/>
 

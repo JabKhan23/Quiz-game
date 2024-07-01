@@ -5,7 +5,7 @@ const ThreeQ2W: React.FC = () => {
 
     return (
       <div>    
-      <button className="home" onClick={() => navigate('/home')}>Home</button>
+      <button className="home" onClick={() => navigate('/mainmenupage')}>Back to Main Menu</button>
       
         <h2>You haven't used the sewing machine in a while, but you've still got the skills. You know you can get the pleats right by just eyeballing them...<br/><br/>
 

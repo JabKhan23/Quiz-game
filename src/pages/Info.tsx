@@ -17,7 +17,7 @@ Thank you! Please do not hesitate to get in touch if you have any questions or i
 
 
         </h2>
-      <button onClick={() => navigate('/home')}>Back to Main Menu</button>
+      <button onClick={() => navigate('/mainmenupage')}>Back to Main Menu</button>
    
     </div>
   );

@@ -5,7 +5,7 @@ const FourQ1: React.FC = () => {
 
     return (
       <div>    
-      <button className="home" onClick={() => navigate('/home')}>Home</button>
+      <button className="home" onClick={() => navigate('/mainmenupage')}>Back to Main Menu</button>
 
         <h2>
         Unlike most other class XC droids, you have amassed quite a few parts throughout the years: arms and legs, a head with eyes and a mouth. Most of these have been fashioned from the scrap you have collected, such as your LED lightbulb eyes.<br/><br/>

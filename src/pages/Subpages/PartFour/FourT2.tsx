@@ -5,7 +5,7 @@ const FourT2: React.FC = () => {
 
     return (
       <div>    
-      <button className="home" onClick={() => navigate('/home')}>Home</button>
+      <button className="home" onClick={() => navigate('/mainmenupage')}>Back to Main Menu</button>
    
         <h2>You stick the fork onto your face with some epoxy, prongs facing downwards. It actually does wonders for your facial harmony; you are feeling good.<br/><br/>
 

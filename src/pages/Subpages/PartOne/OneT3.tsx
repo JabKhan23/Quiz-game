@@ -6,7 +6,7 @@ const OneT3: React.FC = () => {
     return (
       <div>
            
-        <button className="home" onClick={() => navigate('/home')}>Home</button>
+        <button className="home" onClick={() => navigate('/mainmenupage')}>Back to Main Menu</button>
         
         <h2>More time passes. You are both finished with your meals.<br/><br/>
 

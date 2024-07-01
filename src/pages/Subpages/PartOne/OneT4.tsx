@@ -5,7 +5,7 @@ const OneT4: React.FC = () => {
 
     return (
       <div>
-        <button className="home" onClick={() => navigate('/home')}>Home</button>
+        <button className="home" onClick={() => navigate('/mainmenupage')}>Back to Main Menu</button>
       
         <h2>You look out the window; across the street is a renowned 5-star hotel. There seems to be some sort of event going on.<br/><br/>
 

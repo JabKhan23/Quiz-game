@@ -5,7 +5,7 @@ const FourQ2W: React.FC = () => {
 
     return (
       <div>    
-      <button className="home" onClick={() => navigate('/home')}>Home</button>
+      <button className="home" onClick={() => navigate('/mainmenupage')}>Back to Main Menu</button>
    
         <h2>You sell the fork and travel to the Daedalus's casino to play the Feature Machine.<br/><br/>
 

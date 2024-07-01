@@ -128,3 +128,28 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
+
+@media only screen and (max-width: 767px) {
+   button {
+      margin-top: 0.5rem;
+      margin-bottom: 0.5rem;
+    }
+
+    h1 {
+      font-size: 2em;
+    }
+
+    h2 {
+      font-size: 1.25em;
+    }
+
+    body {
+      margin-top: 2rem;
+    }
+
+    .home {
+      top:1%;
+      right: 1%;
+    }
+  
+}

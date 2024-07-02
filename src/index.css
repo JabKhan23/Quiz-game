@@ -24,6 +24,10 @@
   font-family: "Lora", Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
 }
 
+.errorMsg {
+  color: rgb(246, 60, 60);
+}
+
 /* alex changes end */
 
 :root {

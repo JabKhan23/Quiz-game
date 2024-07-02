@@ -47,7 +47,7 @@ const MainMenu: React.FC = () => {
           <div>
             <label htmlFor="password"></label>
             <Field type="password" id="password" name="password" />
-            <ErrorMessage name="password" component="div" style={{ color: 'red' }} />
+            <ErrorMessage className="errorMsg" name="password" component="div" />
           </div> <br/><br/>
           <div className='center'>
           <button className="submitBtn" type="submit" disabled={isSubmitting}>Submit</button>

@@ -8,7 +8,7 @@ const FourQ2: React.FC = () => {
       <button className="home" onClick={() => navigate('/mainmenupage')}>Back to Main Menu</button>
   
         <h2> 
-        You take the curious object to Tin, the scrap trader.<br/><br/>
+        You take the metal object to Tin, the scrap trader.<br/><br/>
 
 "I believe that is a fork," it says. "The humans originally designed them as tools for feeding themselves, but my records say they were used for many things as time went on."<br/><br/>
 

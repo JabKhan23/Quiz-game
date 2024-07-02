@@ -7,7 +7,7 @@ const FourQ3W: React.FC = () => {
       <div>     
       <button className="home" onClick={() => navigate('/mainmenupage')}>Back to Main Menu</button>
    
-        <h2>You decide to go as without a nose. You've read the archives: some human didn't have them either. Your face is face-y enough as it is.<br/><br/>
+        <h2>You decide to go as without a nose. You've read the archives: the official human alphabet - emojis - didn't have noses on their faces either. Surely they can't be that important.<br/><br/>
 
 Unfortunately, your explanation doesn't impress the bouncers. You try every trick in the book, but they don't let you in. <br/><br/>
 

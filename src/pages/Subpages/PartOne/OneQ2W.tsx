@@ -7,11 +7,11 @@ const OneQ2W: React.FC = () => {
     <div>
         <button className="home" onClick={() => navigate('/mainmenupage')}>Back to Main Menu</button>
       
-      <h2>You think you have a metal fork with you, but... whatever. It's not worth the hassle. <br/><br/>
+      <h2>You think you might have a metal fork with you somewhere, but... whatever. It's not worth the hassle. <br/><br/>
 
 You use the plastic cutlery.<br/><br/>
 
-It's not a big deal; most people use single-use plastic tools way more than you. Right?<br/><br/>
+It's not a big deal; most people use plastic utensils way more than you, so that makes it okay. Right?<br/><br/>
 
 </h2> 
 <button onClick={() => navigate(-1)}>Try again</button>

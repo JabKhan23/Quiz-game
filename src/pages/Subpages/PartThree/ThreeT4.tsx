@@ -11,7 +11,7 @@ const ThreeT4: React.FC = () => {
 
 The large man drops Tommy as he screams in pain. Before you get the chance to finish the job, the raider runs away, but your grandkids are safe.<br/><br/>
 
-You have managed protecting them.
+You have managed to protect them.
 <br/><br/>
 
 

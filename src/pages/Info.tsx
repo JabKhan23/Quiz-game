@@ -7,9 +7,9 @@ const Info: React.FC = () => {
   return (
     <div>
       <h2>
-      This game consists of four stories that showcase how forks will be used over 800 years.<br/><br/>
+      The game consists of four stories that present how forks will be used over a period of 800 years.<br/><br/>
 
-Throughout the stories, you will sometimes need to choose between two options.<br/><br/>
+Throughout these stories, you will sometimes need to choose between two options.<br/><br/>
 
 If you choose the incorrect option, don't worry - you will be told what your choice led to, then have the option to go back to the question.<br/><br/>
 

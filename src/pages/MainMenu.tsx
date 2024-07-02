@@ -1,4 +1,4 @@
-import { Formik, Field, Form, ErrorMessage } from 'formik';
+import { Formik, Field, Form, ErrorMessage, FormikHelpers } from 'formik';
 import { useNavigate } from 'react-router-dom';
 import * as Yup from 'yup';
 
@@ -20,7 +20,7 @@ const MainMenu: React.FC = () => {
       .required('Password is required'),
   });
 
-  const onSubmit = (values: FormValues, { setSubmitting, setErrors }) => {
+  const onSubmit = (values: FormValues,  { setSubmitting, setErrors }: FormikHelpers<FormValues>) => {
     setSubmitting(true);
 
     // Custom validation for username and password
